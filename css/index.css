@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    color:rgb(225,239,230);
+    text-align:center;
 }
 ol, ul {
 	list-style: none;
@@ -68,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
+    width:100vw;
     font-size: 7.5rem;
 }
 
@@ -80,6 +83,7 @@ h3 {
 }
 
 p, a {
+    color:rgb(225,239,230);
     font-size: 3rem;
 }
 
@@ -91,8 +95,20 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display:flex;
+    flex-flow:column nowrap;
 }
-
+header div {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-self:flex-start;
+    background-color:rgba(0,4,17,.8);
+    align-content:center;
+}
+nav {
+    display:flex;
+    justify-content:space-around;
+}
 /* spacers */
 .spacer {
     width: 100%;
