@@ -51,7 +51,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border:2px hotpink;
 }
 
 html {
@@ -64,6 +63,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+border:2px hotpink;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -142,13 +142,16 @@ div.mediaLinks {
     display:flex;
     width: 100vw;
     height: 100vh;
+    justify-content:center;
     text-align: center;
     background-color: rgb(0, 4, 17);
 }
 .gallery div {
+    height:100vh;
     width:80vw;
     display:flex;
-    justify-content:space-between;
+    align-content:space-around;
+    justify-content:space-around;
     flex-flow:row wrap;
 }
 .gallery div h2 {
@@ -156,6 +159,7 @@ div.mediaLinks {
     text-align:center;
 }
 .gallery img {
+    padding:2%;
 
 }
 /* about us section */
