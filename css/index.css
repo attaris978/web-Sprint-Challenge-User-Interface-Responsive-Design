@@ -89,7 +89,7 @@ p, a {
 
 /* header section */
 header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
@@ -108,7 +108,22 @@ header div {
 nav {
     display:flex;
     justify-content:space-around;
+    margin: 1rem 0 2rem 0;
 }
+div.mediaLinks {
+    background-color:none;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+}
+.fa-brands {
+    padding: .5rem 2rem .5rem 2rem;
+    margin:.5rem 2rem .5rem 2rem;
+    font-size: 4rem;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+  }
 /* spacers */
 .spacer {
     width: 100%;
